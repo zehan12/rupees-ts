@@ -1,0 +1,4 @@
+{
+  extends: ['github>zehan12/renovate-config'],
+  automerge: true,
+}
