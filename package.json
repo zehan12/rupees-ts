@@ -1,6 +1,6 @@
 {
   "name": "rupees-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@10.11.0",
   "description": "Convert number to Indian Rupees format, but faster & fully typed.",
   "type": "module",
