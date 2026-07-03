@@ -78,8 +78,8 @@ function numberToWordsIndian(num: number): string {
 }
 
 export function convert(input: number | string): string | false {
-  let rupees = 0
-  let paise = 0
+  let rupees: number
+  let paise: number
   let isNegative = false
 
   if (typeof input === 'number') {

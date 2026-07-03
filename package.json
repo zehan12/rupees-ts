@@ -1,9 +1,20 @@
 {
   "name": "rupees-ts",
+  "type": "module",
   "version": "0.0.2",
   "packageManager": "pnpm@10.11.0",
   "description": "Convert number to Indian Rupees format, but faster & fully typed.",
-  "type": "module",
+  "author": "ゼハン Zehan Khan <zehan9211@gmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/zehan12",
+  "homepage": "https://github.com/zehan12/rupees.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zehan12/rupees.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zehan12/rupees.js/issues"
+  },
   "keywords": [
     "Indian",
     "Rupees",
@@ -15,27 +26,16 @@
     "TypeScript",
     "JavaScript"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/zehan12/rupees.js",
-  "bugs": {
-    "url": "https://github.com/zehan12/rupees.js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zehan12/rupees.js.git"
-  },
-  "author": "ゼハン Zehan Khan <zehan9211@gmail.com>",
-  "funding": "https://github.com/sponsors/zehan12",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
